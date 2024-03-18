@@ -64,14 +64,14 @@ export const projectsData = [
   {
     title: "ElenaPortfolio",
     description:
-      "Created a professional portfolio.",
+      "Created a professional portfolio which includes introduction, finished projects, skills, work experience, and contact info.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
     imageUrl: portfolioImg,
   },
   {
     title: "WellQuest",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "A 40-hour hackathon project focuses on students' health and well-being using technologies such as JavaScript, React Native, Node.js, Express.js, and MongoDB.",
     tags: ["React Native", "Node.js", "Express.js", "MongoDB", "Expo", "Postman"],
     imageUrl: wellquestImg,
   },
