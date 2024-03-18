@@ -7,13 +7,10 @@ import { BsArrowRight } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section-context';
-import { useEffect } from 'react';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-    const {ref} = useSectionInView('Home');
+  const {ref} = useSectionInView("Home", 0.5);
 
   return (
     <section
