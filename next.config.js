@@ -2,7 +2,10 @@
 const nextConfig = {
     images: {
         
-    }
-}
+    },
+    experimental: {
+        serverActions: true,
+      },
+    };
 
-module.exports = nextConfig
+module.exports = nextConfig;

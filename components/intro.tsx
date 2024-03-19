@@ -8,9 +8,11 @@ import { HiDownload } from 'react-icons/hi';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
   const {ref} = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -44,10 +46,10 @@ export default function Intro() {
         animate ={{opacity:1, y:0}}
         >
         <span className="font-bold">Hello, I'm Elena.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">BCIT CST student</span> with{" "}
         <span className="font-bold">legal and business</span> background. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">JavaScript </span>and <span className="underline">React (Next.js)</span>.
         </motion.h1>
         
         {/* Buttons */}
@@ -61,6 +63,9 @@ export default function Intro() {
         >
             <Link href="#contact"
              className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+             onClick={() => {setActiveSection("Contact");
+             setTimeOfLastClick(Date.now());
+            }}
             >
                 Contact me here {""}
                 <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"/>
@@ -75,14 +80,14 @@ export default function Intro() {
             </a>
             
             <a 
-            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://www.linkedin.com/in/elenazhu/" target= "_blank"
             >
                 <BsLinkedin/>
             </a>
             
             <a 
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://github.com/ElenaZhu1" target= "_blank"
             >
                 <FaGithubSquare/>

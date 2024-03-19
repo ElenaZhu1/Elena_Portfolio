@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "BCIT CST Diploma",
     location: "Burnaby, BC",
     description:
-      "I will graduate after 2 years of studying. I will have a diploma in Computer Systems Technology.",
+      "I am currently seeking a co-op position and will be obtaining my diploma in Computer Systems Technology within the next year.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2025",
   },
