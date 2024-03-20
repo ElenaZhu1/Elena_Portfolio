@@ -19,30 +19,24 @@ export default function About() {
         <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
         After graduating with degrees in{" "}
-        <span className="font-medium">Business and Law</span>, inspired by my friend in tech industry, I decided to pursue my
-        passion for programming. I enrolled in a Coursea course and learned{" "}
-        <span className="font-medium">Python</span>.{" "}
-        <span className="italic">Then I went to BCIT to study for Computer Systems Technology diploma. </span>My favorite part of programming is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        <span className="font-medium">Business and Law</span> and feeling inspired by a friend in the tech industry, I decided to follow my passion for programming. My journey began with a Coursera course on{" "}
+        <span className="font-medium">Python</span>,{" "}
+        <span className="italic">followed by pursuing a diploma in Computer Systems Technology at BCIT. </span>What captivates me most about programming is the problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
           JavaScript, HTML, CSS, React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with Java and SQL. I am always looking to
+        . I am also versed in Java and SQL. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">Co-op position</span> as a software
-        developer, web developer, QA, or Devops.
+        <span className="font-medium">Co-op position</span> where I can thrive as a software developer, web developer, QA specialist, or DevOps engineer.
       </p>
 
       {/* Second Paragraph */}
       <p>
-        <span className="italic">I have been living in three countries. </span> I enjoy playing
-        reading, watching movies, and playing with my ragdoll cats when I am not coding. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">photography</span>. I also love Political Philosophy, European History,
-        Art, and Psychology.
+        <span className="italic">Having lived in three different countries,  </span> I relish diverse experiences—from delving into reading and cinema to spending quality time with my ragdoll cats. I also enjoy{" "}
+        <span className="font-medium">learning new things</span>. My current venture is exploring the  {" "}
+        <span className="font-medium">photography</span>. Moreover, I have a keen interest in Political Philosophy, European History, Art, and Psychology, which enrich my perspective and creativity.
       </p>
     </motion.section>
   )

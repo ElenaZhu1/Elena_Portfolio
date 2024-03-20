@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "SnowGo",
     description:
-      "SnowGo is a web application to help Metro Vancouver commuters commute efficiently during the winter by submitting and viewing reviews on road conditions before starting their commute.",
+      "SnowGo is a web application to help Metro Vancouver commuters commute efficiently during the winter by submitting and viewing reviews on road conditions.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase"],
     imageUrl: snowgoImg,
   },
