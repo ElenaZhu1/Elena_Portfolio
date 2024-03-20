@@ -35,18 +35,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BCIT CST Diploma",
+    title: "BCIT | CST Diploma",
     location: "Burnaby, BC",
     description:
-      "I am currently seeking a co-op position and will be obtaining my diploma in Computer Systems Technology within the next year.",
+      "I am actively seeking a co-op position and will be obtaining my diploma in Computer Systems Technology within the next year. I enjoy solving problems and learning new technologies.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2025",
+  },
+  {
+    title: "UCLA Master of Laws (LL.M.)",
+    location: "Los Angeles, California",
+    description:
+      "I was pursuing my master's degree during the pandemic. Life was tough for those from Wuhan but I made it through.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2020",
   },
   {
     title: "Assistant Manager",
     location: "Wuhan, China",
     description:
-      "Led the onboarding and training of new team members; Organized sales events to increase sales and customer engagement",
+      "I was self-employeed as a bubble tea shop owner. I led the onboarding and training of new team members and organized sales events to increase sales and customer engagement.",
     icon: React.createElement(CgWorkAlt),
     date: "2017 - 2019",
   },
@@ -54,9 +62,25 @@ export const experiencesData = [
     title: "Academic Assistant (Political Philosophy)",
     location: "Beijing, China",
     description:
-      "Collaborated with a 7-person team to develop reading guidelines for complex philosophical concepts; Tailored learning strategies for over 50 students based on their needs",
+      "I was invited directly by the CEO to work for the start-up education company because of my proactive attitude, motivation to help others, and solid understanding of abstract concepts.",
     icon: React.createElement(FaReact),
     date: "2016 - 2017",
+  },
+  {
+    title: "Wuhan University | Bachelor of Laws (LL.B.)",
+    location: "Wuhan, China",
+    description:
+      "I am proud of my strong legal foundation gained during my studies. My years of digging into the law and liberal arts subjects shaped my values.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014 - 2017",
+  },
+  {
+    title: "Wuhan University of Science and Technology | Bachelor of Management",
+    location: "Wuhan, China",
+    description:
+      "As a student leader, I cared about everyone in our class. I managed to hold panel discussions for scholarship evaluation, and helped to reschedule my roommates' final exam.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2013 - 2017",
   },
 ] as const;
 
@@ -64,8 +88,8 @@ export const projectsData = [
   {
     title: "ElenaPortfolio",
     description:
-      "Created a professional portfolio which includes introduction, finished projects, skills, work experience, and contact info.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+      "Created a professional portfolio which includes introduction, projects, skills, experience, and contact form.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "React Email & Resend", "Vercel"],
     imageUrl: portfolioImg,
   },
   {
@@ -79,7 +103,7 @@ export const projectsData = [
     title: "SnowGo",
     description:
       "SnowGo is a web application to help Metro Vancouver commuters commute efficiently during the winter by submitting and viewing reviews on road conditions before starting their commute.",
-    tags: ["HTML", "CSS", "Bootstrap", "Firebase","JavaScript"],
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase"],
     imageUrl: snowgoImg,
   },
 ] as const;
@@ -94,6 +118,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "GitHub",
   "Tailwind",
   "MongoDB",
   "Express",
